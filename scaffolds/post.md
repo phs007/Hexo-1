@@ -1,5 +1,8 @@
 ---
 title: {{ title }}
-date: {{ date }}
+date: 
+update: 
+comments: 
 tags:
+category:
 ---
