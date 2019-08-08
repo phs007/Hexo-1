@@ -617,7 +617,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default
   # Available values: changyan | disqus | disqusjs | facebook_comments_plugin | gitalk | livere | valine | vkontakte
-  active:
+  active: gitalk
   # Setting `true` means remembering the comment system selected by the visitor
   storage: true
   # Modify icons and texts for any style, here are some examples
@@ -679,12 +679,12 @@ livere_uid: # <your_uid>
 # Demo: https://gitalk.github.io
 # For more information: https://github.com/gitalk/gitalk
 gitalk:
-  enable: false
-  github_id: # GitHub repo owner
-  repo: # Repository name to store issues
-  client_id: # GitHub Application Client ID
-  client_secret: # GitHub Application Client Secret
-  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  enable: true
+  github_id: SiriYXR # GitHub repo owner
+  repo: siriyxr.github.io # Repository name to store issues
+  client_id: c094b4592e80a7659c43 # GitHub Application Client ID
+  client_secret: aa6c968e5ee630ede381a8621f344e930068af48 # GitHub Application Client Secret
+  admin_user: SiriYXR # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
