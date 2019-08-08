@@ -56,18 +56,6 @@
           {%- endfor %}
         </div>
       </div>
-	  
-	  {% elseif theme.gitment.enable %}
-       {% if theme.gitment.lazy %}
-         <div onclick="ShowGitment()" id="gitment-display-button">{{  __('gitmentbutton') }}</div>
-         <div id="gitment-container" style="display:none"></div>
-       {% else %}
-         <div id="gitment-container"></div>
-       {% endif %}
-	  
-	  {% elseif theme.gitalk.enable %}
-		<div id="gitalk-container"></div>
-	  
       <script>
         window.addEventListener('tabs:register', function() {
           let activeClass = '{{ theme.comments.activeClass }}';

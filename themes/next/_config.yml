@@ -837,7 +837,7 @@ busuanzi_count:
   total_views_icon: eye
   post_views: true
   post_views_icon: eye
-  
+
 # Tencent analytics
 tencent_analytics: # <app_id>
 
@@ -865,7 +865,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: true
+  enable: false
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -1171,19 +1171,3 @@ vendors:
 css: css
 js: js
 images: images
-
-# Gitment
-# Introduction: https://github.com/imsun/gitment
-gitment:
-  enable: true
-  mint: true 
-  count: true 
-  lazy: false 
-  cleanly: false 
-  language: 
-  github_user: SiriYXR
-  github_repo: siriyxr.github.io
-  client_id: c094b4592e80a7659c43
-  client_secret: aa6c968e5ee630ede381a8621f344e930068af48
-  proxy_gateway: 
-  redirect_protocol: 
