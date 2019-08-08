@@ -555,7 +555,7 @@ pjax: false
 # To install 2.x: https://github.com/theme-next/theme-next-fancybox
 # To install 3.x: https://github.com/theme-next/theme-next-fancybox3
 # For more information: https://fancyapps.com/fancybox
-fancybox: false
+fancybox: true
 
 # A JavaScript library for zooming images like Medium.
 # Do not enable both `fancybox` and `mediumzoom`.
