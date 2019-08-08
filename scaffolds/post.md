@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: 
-update: 
+updated: 
 comments: 
 tags:
 category:
