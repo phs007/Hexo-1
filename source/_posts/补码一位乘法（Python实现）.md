@@ -1,8 +1,6 @@
 ---
 title: 补码一位乘法（Python实现）
-top: 
 date:
-update:
 comments: 
 tags:
 	- 代码
