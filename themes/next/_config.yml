@@ -98,7 +98,9 @@ title_trick:
   enable: true
   leave: "(つェ⊂)我藏好了哦~"
   enter: "(*´∇｀*) 被你发现啦~"    
-
+  
+# mouse click effect: fireworks | explosion | love | text
+cursor_effect: fireworks
     
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
