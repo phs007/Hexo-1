@@ -85,6 +85,14 @@ footer:
     enable: false
     icp:
 
+  ages:
+    # site running time
+    enable: true
+    # birthday of your site
+    birthday: 20190807
+    # color of number
+    color: "#1890ff"
+    
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
 # Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero

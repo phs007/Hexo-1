@@ -104,5 +104,7 @@
     </div>
     {% include '_partials/pjax.swig' %}
   {%- endif %}
+  
+  {% include '_custom/custom.swig' %}
 </body>
 </html>
