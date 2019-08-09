@@ -1,5 +1,5 @@
 ---
-title: 补码一位乘法代码实现（Python）
+title: 补码一位乘法（Python实现）
 top: 
 date:
 update:
