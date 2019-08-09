@@ -1,8 +1,6 @@
 ---
 title: {{ title }}
-top:
-date: 
-updated: 
+date: {{ date }} 
 comments: 
 tags:
 category:
