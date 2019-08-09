@@ -46,7 +46,7 @@ page:
 footer:
   powered: "由 %s 强力驱动"
   theme: 主题
-  age: 建站
+  age: 已运行
   total_views: 总访问量
   total_visitors: 总访客量
 counter:
