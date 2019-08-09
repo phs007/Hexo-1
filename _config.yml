@@ -6,14 +6,14 @@
 title: SiriBlog
 subtitle: siriyang的个人博客
 description: 苦逼的考研党
-keywords:
+keywords: siriyang,SiriBlog,编程,考研
 author: SiriYang
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com/child
+url: https://siriyxr.github.io 
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,3 +98,9 @@ symbols_count_time:
  # 网页底部是否显示
   total_symbols: true
   total_time: true
+  
+# 自动生成sitemap
+sitemap: 
+  path: sitemap.xml
+baidusitemap: 
+  path: baidusitemap.xml
