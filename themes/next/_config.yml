@@ -53,7 +53,7 @@ rss:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -102,6 +102,19 @@ title_trick:
   
 # mouse click effect: fireworks | explosion | love | text
 cursor_effect: fireworks
+
+# window woblle
+wobble:
+  # 是否开启边缘波动效果
+  enable: true 
+  # 波动半径 
+  radius: 50  
+  # 开启侧边栏边缘摆动
+  sidebar: true  
+  # 开启头部边缘摆动
+  header: true  
+  # 开启脚部边缘摆动
+  footer: true  
     
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
@@ -189,9 +202,9 @@ menu_settings:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
+scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -283,7 +296,7 @@ sidebar:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: true
+  sidebar: false
   # Scroll percent label in b2t button.
   scrollpercent: true
 
@@ -482,7 +495,7 @@ github_banner:
 font:
   # Use custom fonts families or not.
   # Depended options: `external` and `family`.
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
   host:
@@ -495,13 +508,13 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
+    family: Monda
     size:
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
+    family: Roboto Slab
     size:
 
   # Font settings for headlines (<h1> to <h6>).
