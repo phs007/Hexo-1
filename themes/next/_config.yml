@@ -465,7 +465,7 @@ codeblock:
     # Show text copy result.
     show_result: true
     # Available values: default | flat | mac
-    style: default
+    style: flat
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
