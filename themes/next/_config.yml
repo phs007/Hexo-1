@@ -102,19 +102,6 @@ title_trick:
   
 # mouse click effect: fireworks | explosion | love | text
 cursor_effect: fireworks
-
-# window woblle
-wobble:
-  # 是否开启边缘波动效果
-  enable: true 
-  # 波动半径 
-  radius: 50  
-  # 开启侧边栏边缘摆动
-  sidebar: true  
-  # 开启头部边缘摆动
-  header: true  
-  # 开启脚部边缘摆动
-  footer: true  
     
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
@@ -202,9 +189,9 @@ menu_settings:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
+#scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -244,7 +231,7 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  siriyang的网站: http://www.siriyang.cn
+  siriyang的网站: http://148.70.9.122
   Bdongs: http://bdongs.com
   
 # Sidebar Avatar
@@ -296,7 +283,7 @@ sidebar:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
   scrollpercent: true
 
