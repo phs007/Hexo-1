@@ -2,6 +2,7 @@
 title: 补码一位乘法（Python实现）
 date:
 comments: 
+description: 基于Python语言实现的补码一位乘法算法
 tags:
 	- 代码
 	- 理论
