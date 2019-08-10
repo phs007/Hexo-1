@@ -102,6 +102,7 @@ title_trick:
   
 # mouse click effect: fireworks | explosion | love | text
 cursor_effect: fireworks
+
     
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
@@ -269,7 +270,7 @@ sidebar:
   #width: 300
 
   # Sidebar Display (only for Muse | Mist), available values:
-  #  - post    expand on posts automatically. Default.
+  #  - post    expand on posts automatically. Default.eedd
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
@@ -283,7 +284,7 @@ sidebar:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: true
+  sidebar: false
   # Scroll percent label in b2t button.
   scrollpercent: true
 
@@ -345,6 +346,13 @@ symbols_count_time:
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
+
+post_end_tag:
+  # 是否开启文末的本文结束标记
+  enable: true  
+  # 结束标记之间的图标
+  icon: paw 
+
 
 # Wechat Subscriber
 wechat_subscriber:

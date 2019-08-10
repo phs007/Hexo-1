@@ -384,4 +384,11 @@
   {######################}
   {### END POST BLOCK ###}
   {######################}
+  
+   {% if  theme.post_end_tag.enable and not is_index %}
+    <div>
+      {% include 'post-end-tag.swig' %}
+    </div>
+  {% endif %}
+
   </article>
