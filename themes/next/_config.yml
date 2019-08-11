@@ -834,8 +834,9 @@ vkontakte_api:
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     # <app_id>
-  color:  fc6423
+  # <app_id>
+  id: 20285:siriyang.cn 
+  color: fc6423
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
