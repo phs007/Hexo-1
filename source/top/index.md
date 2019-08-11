@@ -1,14 +1,15 @@
 ---
 title: 热门文章Top 10
 date: 2019-08-11 00:05:22
+comments: false
 ---
 
 <div id="post-rank"></div>
 
 <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.10.0/dist/av-min.js"></script>
 <script>
-  var APP_ID = jU4bqMkpFWGMMQrHgQRc7g2P-MdYXbMMI ;  //输入个人LeanCloud账号AppID
-  var APP_KEY = DxisgCV93TNxMkNrJQY64YOW ;  //输入个人LeanCloud账号AppKey
+  var APP_ID = "jU4bqMkpFWGMMQrHgQRc7g2P-MdYXbMMI" ;  //输入个人LeanCloud账号AppID
+  var APP_KEY = "DxisgCV93TNxMkNrJQY64YOW" ;  //输入个人LeanCloud账号AppKey
   AV.init({
     appId: APP_ID,
     appKey: APP_KEY
