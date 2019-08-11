@@ -93,16 +93,6 @@ footer:
     birthday: 20190807
     # color of number
     color: "#1890ff"
-
-# a trick on website title
-title_trick:
-  enable: true
-  leave: "(つェ⊂)我藏好了哦~"
-  enter: "(*´∇｀*) 被你发现啦~"    
-  
-# mouse click effect: fireworks | explosion | love | text
-cursor_effect: fireworks
-
     
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
@@ -1206,3 +1196,25 @@ vendors:
 css: css
 js: js
 images: images
+
+# a trick on website title
+title_trick:
+  enable: true
+  leave: "(つェ⊂)我藏好了哦~"
+  enter: "(*´∇｀*) 被你发现啦~"    
+  
+# mouse click effect: fireworks | explosion | love | text
+cursor_effect: fireworks
+
+# window woblle
+wobble:
+  # 是否开启边缘波动效果
+  enable: true  
+  # 波动半径
+  radius: 50  
+  # 开启侧边栏边缘摆动
+  sidebar: false  
+  # 开启头部边缘摆动
+  header: true  
+  # 开启脚部边缘摆动
+  footer: false

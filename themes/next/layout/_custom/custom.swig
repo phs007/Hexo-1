@@ -1,3 +1,10 @@
+{# 页面加载时header高度收缩动效 #}
+<script>
+  $(document).ready(function () {
+    $(".header-inner").animate({padding: "25px 0 25px"}, 1000);
+  });
+</script>
+
 {# 页脚站点运行时间统计 #}
 {% if theme.footer.ages.enable %}
   <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
@@ -15,9 +22,14 @@
       div.innerHTML = `{{ __('footer.age')}} ${ages}`;
     }
     var div = document.createElement("div");
+
     //插入到copyright之后
     var copyright = document.querySelector(".copyright");
     document.querySelector(".footer-inner").insertBefore(div, copyright.nextSibling);
+
+    //插入到卜蒜子之后
+    //document.querySelector(".footer-inner").appendChild(div);
+
     timer();
     setInterval("timer()",1000)
   </script>
@@ -53,4 +65,47 @@
   <script async src="/js/cursor/love.min.js"></script>
 {% elseif theme.cursor_effect == "text" %}
   <script async src="/js/cursor/text.js"></script>
+{% endif %}
+
+{# wobble窗口摆动特效 #}
+{% if theme.wobble.enable %}
+  <script src="/js/wobblewindow.js"></script>
+  <script>
+    //只在桌面版网页启用特效
+    if( window.innerWidth > 768  ){
+      $(document).ready(function () {
+        {% if theme.wobble.header %}
+          $('#header').wobbleWindow({
+            radius: {{ theme.wobble.radius }},
+            movementTop: false,
+            movementLeft: false,
+            movementRight: false,
+            debug: false,
+          });
+        {% endif %}
+
+        {% if theme.wobble.sidebar %}
+          $('#sidebar').wobbleWindow({
+            radius: {{ theme.wobble.radius }},
+            movementLeft: false,
+            movementTop: false,
+            movementBottom: false,
+            position: 'fixed',
+            debug: false,
+          });
+        {% endif %}
+
+        {% if theme.wobble.footer %}
+          $('#footer').wobbleWindow({
+            radius: {{ theme.wobble.radius }},
+            movementBottom: false,
+            movementLeft: false,
+            movementRight: false,
+            position: 'absolute',
+            debug: false,
+          });
+        {% endif %}
+      });
+    }
+  </script>
 {% endif %}

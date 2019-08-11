@@ -1,0 +1,88 @@
+//加宽菜单间距，放大菜单图标
+#menu .menu-item {
+  margin: 0px 14px;
+
+  .fa {
+    font-size: 16px;
+  }
+}
+
+//隐藏社交图标前的圆点
+.links-of-author a,
+.links-of-author .exturl {
+  &:before {
+    display: none;
+  }
+}
+
+//修改不蒜子数据颜色
+.busuanzi-value {
+  color: #1890ff;
+}
+
+//参考链接样式
+.posts-expand .post-body .reference-linking {
+  margin: 60px 0px 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 24px;
+}
+
+//窗口波动效果相关样式
+if hexo-config('wobble')  {
+  .sidebar {
+    box-shadow: none;
+  }
+
+  .wobbleTransparentBK{
+    background-color: rgba(0,0,0,0) !important;
+  }
+
+  .wobbleTransparentLine{
+    border-color: rgba(0,0,0,0) !important;
+  }
+
+  //Next.Muse中为Header和Footer添加背景色
+  #header, #footer {
+    background-color: rgb(245, 245, 245);
+  }
+
+  //防止sidebar和footer同时开启动效时堆叠异常
+  #sidebar, header {
+    z-index: 1 !important;
+  }
+
+  //防止手机版归档页面中导航展开后被正文遮住
+  //.posts-collapse {
+  //  z-index: 0;
+  //}
+
+  //防止挡住页末文章的阅读全文按钮
+  .main {
+    padding-bottom: 200px;
+  }
+}
+
+//增加头部高度配合页面加载时的收缩特效
+.header-inner {
+  padding: 80px 0 80px;
+}
+
+// Muse主题下自定义样式
+if hexo-config('scheme') == "Muse" {
+  //为头部和尾部添加背景色
+  #header, #footer {
+    background-color: rgb(245, 245, 245);
+  }
+
+  .site-meta {
+    .brand {
+      color: rgb(34, 34, 34);
+      background: none;
+    }
+
+    .site-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+}
