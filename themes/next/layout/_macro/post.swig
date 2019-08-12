@@ -261,6 +261,13 @@
       {%- endif %}
     </div>
 
+	{### end of partial logo ###}
+	{% if  theme.post_end_tag.enable and not is_index %}
+	<div>
+		{% include 'post-end-tag.swig' %}
+	</div>
+	{% endif %}
+	
     {%- if theme.related_posts.enable and (theme.related_posts.display_in_home or not is_index) %}
       {% include '../_partials/post/post-related.swig' with { post: post } %}
     {%- endif %}
@@ -297,6 +304,7 @@
     {%- endif %}
 
     <footer class="post-footer">
+	
       {%- if post.tags and post.tags.length and not is_index %}
         {%- if theme.tag_icon %}
           {%- set tag_indicate = '<i class="fa fa-tag"></i>' %}
@@ -384,11 +392,4 @@
   {######################}
   {### END POST BLOCK ###}
   {######################}
-  
-   {% if  theme.post_end_tag.enable and not is_index %}
-    <div>
-      {% include 'post-end-tag.swig' %}
-    </div>
-  {% endif %}
-
   </article>
