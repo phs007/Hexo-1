@@ -10,7 +10,7 @@
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
 
-      {%- set display_toc = theme.toc.enable and display_toc %}
+      {%- set display_toc = theme.toc.enable and display_toc and not page.hide_toc %}
 
       {%- if display_toc and toc(page.content).length > 1 %}
         <ul class="sidebar-nav motion-element">
