@@ -236,6 +236,8 @@ avatar:
   rounded: true
   # If true, the avatar would be rotated with the cursor.
   rotated: true
+  # 设置点击头像跳转到的链接
+  linkto: /about
 
 # 生成目录表
 # Table Of Contents in the Sidebar
