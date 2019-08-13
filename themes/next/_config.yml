@@ -641,7 +641,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default
   # Available values: changyan | disqus | disqusjs | facebook_comments_plugin | gitalk | livere | valine | vkontakte
-  active: gitalk
+  active: valine
   # Setting `true` means remembering the comment system selected by the visitor
   storage: true
   # Modify icons and texts for any style, here are some examples
@@ -682,18 +682,18 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version
-  appid: # Your leancloud application appid
-  appkey: # Your leancloud application appkey
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version
+  appid: jU4bqMkpFWGMMQrHgQRc7g2P-MdYXbMMI  # Your leancloud application appid
+  appkey: DxisgCV93TNxMkNrJQY64YOW  # Your leancloud application appkey
   notify: false # Mail notifier. See: https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Just go go # Comment box placeholder
+  verify: true # Verification code
+  placeholder:  # Comment box placeholder
   avatar: mm # Gravatar style
-  guest_info: nick,mail,link # Custom comment header
+  guest_info: nick,mail # Custom comment header
   pageSize: 10 # Pagination size
-  language: # Language, available values: en, zh-cn
+  language: zh-cn # Language, available values: en, zh-cn
   visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
-  comment_count: true # If false, comment count will only be displayed in post page, not in home page
+  comment_count: false # If false, comment count will only be displayed in post page, not in home page
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -703,7 +703,7 @@ livere_uid: # <your_uid>
 # Demo: https://gitalk.github.io
 # For more information: https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: SiriYXR # GitHub repo owner
   repo: siriyxr.github.io # Repository name to store issues
   client_id: c094b4592e80a7659c43 # GitHub Application Client ID
