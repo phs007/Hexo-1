@@ -3,7 +3,7 @@ title: SketchBook画册
 date: 2019-08-09 23:07:00
 comments:
 tags:
-	- 画画
+	- 绘画
 category:
 	- 生活
 ---
