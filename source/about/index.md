@@ -19,7 +19,7 @@ hide_toc: true
 * [Hexo](https://hexo.io/zh-cn/) : 基础博客框架
 * [Next](https://theme-next.iissnan.com) : 基于 Hexo 的博客主题
 * [LeanCloud](https://leancloud.app) : 数据云存储与后端支持
-* [Gitalk](https://github.com/gitalk/gitalk) : 文章评论组件
+* [Valine](https://valine.js.org) : 文章评论组件
 * [GitHub](https://github.com) : 提供云服务器与 COS 对象存储等多项服务
 * [Tencent Cloud](https://cloud.tencent.com) : 提供域名解析服务
 
@@ -28,5 +28,5 @@ hide_toc: true
 {% endnote %}
 
 ### 友情链接
-* [yearito](http://yearito.cn/posts/hexo-get-started.html) : 博客搭建技术指导
+* [yearito](http://yearito.cn/posts/hexo-get-started.html) : 博客搭建技术参考
 * [Bdongs](https://bdongs.com) : 大学同学
