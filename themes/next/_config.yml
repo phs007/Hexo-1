@@ -687,7 +687,7 @@ valine:
   appkey: DxisgCV93TNxMkNrJQY64YOW  # Your leancloud application appkey
   notify: false # Mail notifier. See: https://github.com/xCss/Valine/wiki
   verify: true # Verification code
-  placeholder:  # Comment box placeholder
+  placeholder: 支持Markdown语法哦！ # Comment box placeholder
   avatar: mm # Gravatar style
   guest_info: nick,mail # Custom comment header
   pageSize: 10 # Pagination size
@@ -1207,6 +1207,11 @@ title_trick:
   
 # mouse click effect: fireworks | explosion | love | text
 cursor_effect: fireworks
+
+# typing effect
+typing_effect:
+  colorful: true  # 礼花特效
+  shake: false  # 震动特效
 
 # window woblle
 wobble:

@@ -67,6 +67,16 @@
   <script async src="/js/cursor/text.js"></script>
 {% endif %}
 
+{# 打字特效 #}
+{% if theme.typing_effect %}
+  <script src="/js/activate-power-mode.min.js"></script>
+  <script>
+    POWERMODE.colorful = {{ theme.typing_effect.colorful }};
+    POWERMODE.shake = {{ theme.typing_effect.shake }};
+    document.body.addEventListener('input', POWERMODE);
+  </script>
+{% endif %}
+
 {# wobble窗口摆动特效 #}
 {% if theme.wobble.enable %}
   <script src="/js/wobblewindow.js"></script>
