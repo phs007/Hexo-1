@@ -4,7 +4,7 @@ date:
 comments: 
 description: 基于Python语言实现的补码一位乘法算法
 tags:
-	- 代码
+	- 计算机组成原理
 	- 理论
 	- Python
 category:
