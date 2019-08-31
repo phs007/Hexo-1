@@ -6,6 +6,7 @@ tags:
 	- 绘画
 category:
 	- 生活
+	- 图片
 ---
 
 ## {% cq %} 海滩 {% endcq %}
